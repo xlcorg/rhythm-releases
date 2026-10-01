@@ -1,10 +1,10 @@
-Ритм — установщики и подписанные обновления для Windows x64.
+Rhythm — installers and signed updates for Windows x64.
 
-Скачать установщик: https://github.com/xlcorg/rhythm-releases/releases/latest
+Download the installer: https://github.com/xlcorg/rhythm-releases/releases/latest
 
-Этот репозиторий содержит только файлы распространения и их публикацию.
-Исходный код приложения хранится отдельно в приватном репозитории.
-Пользовательские расписания и отметки не загружаются сюда.
+This repository contains only distribution files and their publishing workflow.
+The application source code is maintained separately in a private repository.
+User schedules and completion marks are not uploaded here.
 
-latest.json используется встроенным updater Tauri. Подпись проверяется
-приложением перед установкой. SHA256SUMS позволяет отдельно проверить целостность.
+latest.json is used by the built-in Tauri updater. The application verifies
+signatures before installation. SHA256SUMS supports a separate integrity check.
