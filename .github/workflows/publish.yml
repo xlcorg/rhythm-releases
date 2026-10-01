@@ -1,0 +1,30 @@
+name: Publish signed installer
+on:
+  push:
+    branches: [main]
+    paths: [release.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-rhythm
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify manifest and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION=$(jq -r .version release.json)
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          DIR="packages/v$VERSION"
+          NAME="Rhythm_${VERSION}_x64-setup.exe"
+          jq -e --arg v "$VERSION" --arg u "https://github.com/xlcorg/rhythm-releases/releases/download/v$VERSION/$NAME" '.version == $v and .platforms["windows-x86_64"].url == $u and (.platforms["windows-x86_64"].signature | length > 0)' "$DIR/latest.json"
+          test "$(jq -r '.platforms["windows-x86_64"].signature' "$DIR/latest.json")" = "$(cat "$DIR/$NAME.sig")"
+          (cd "$DIR" && sha256sum --check SHA256SUMS)
+          gh release create "v$VERSION" "$DIR/$NAME" "$DIR/$NAME.sig" "$DIR/latest.json" "$DIR/SHA256SUMS" --repo xlcorg/rhythm-releases --title "Ритм $VERSION" --notes "Подписанное обновление приложения Ритм для Windows x64." --latest
