@@ -1,0 +1,11 @@
+{
+  "version": "0.1.2",
+  "notes": "Интерфейс на Svelte 5, полный переход на TypeScript, исправления календаря и редактора YAML. Номер версии доступен в настройках.",
+  "pub_date": "2026-10-02T19:41:38.017Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTllGN3pvQ3VZeHN4aWFkeXBEYUtCY1IyZG45S1JMdmYvVHNYYVNBRHFkVUQ0TzlwdHFnOHY2Y1NnMDdORnl6SDF5YmRPWTQvZnNZbDQrZ2NVUDVqeFBKSnUyR1pWT2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTcwMDk3CWZpbGU60KDQuNGC0LxfMC4xLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4yCkZKZitRL1lhbFJRMlFLb1VTUEF1SU8zOEZzWTZ0czludFJEMENTcWZwTmlYa1pJVWdsYU9tdU8weGVuYUs1QnM0a2xIUHB3SG9aYmhXUnh4SW1vRERBPT0K",
+      "url": "https://github.com/xlcorg/rhythm-releases/releases/download/v0.1.2/Rhythm_0.1.2_x64-setup.exe"
+    }
+  }
+}
