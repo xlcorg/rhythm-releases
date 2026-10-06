@@ -1,0 +1,11 @@
+{
+  "version": "0.2.1",
+  "notes": "Нажатие на дату в календаре «Месяц» открывает расписание выбранного дня на экране «День». Выбранные дата и экран сохраняются после перезапуска. Формат данных v3 не изменился.",
+  "pub_date": "2026-10-06T03:35:04.083Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTllGN3pvQ3VZeG5aeVFubWxLaHVDNGFodkczZWdkTmxSZ0pGTUp6WjRNWHpxVHRXc2NHeG5FSVpvRE5GSklSRkFZZDc4TmdtTW00VGZvUUNxZnR5cU81SjB3bHB0dmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU3NzAzCWZpbGU60KDQuNGC0LxfMC4yLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xClNQNkk1a0dneEw4WjAyZ0NqdmcrTnZ4aVlVV3VGazBhODVkV0VlSHc3QlFnR3B4ZGxXcnNOZ1FRc3VnUC9JTlg5d2U0cFZRNTJUaG5NRHB2QVMzZ0JBPT0K",
+      "url": "https://github.com/xlcorg/rhythm-releases/releases/download/v0.2.1/Rhythm_0.2.1_x64-setup.exe"
+    }
+  }
+}
