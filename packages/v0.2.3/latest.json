@@ -1,0 +1,11 @@
+{
+  "version": "0.2.3",
+  "notes": "Текст занятия на конкретную дату виден в карточке дня и заменяет общую строку описания. Неделю занятий можно загрузить из файла в редакторе расписания. Формат данных v3 не изменился.",
+  "pub_date": "2026-10-09T14:06:12.516Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSTllGN3pvQ3VZeGp6c3gvZnJ0eG9wU3BuUDhDS3NvNHFGRXZTSGlPT2JmZEkyc1BXL1hmVnd2Rm40QXo3ZUdTQnJMa3ZqdWp3TTlRTDNuMEVNaGlUOW9ESWtBQXRDTFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTU0NzcxCWZpbGU60KDQuNGC0LxfMC4yLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4zClovZXhHQnljcDFWcWFsSURVRTJNaTRBWm55TE94ZzFzSnVuaktjSWJHK1hnQTl1OWVxdW1OUEJJa3N3SEZldEZGa3grN1RIRVVLa09OTkJaSTdnYUFRPT0K",
+      "url": "https://github.com/xlcorg/rhythm-releases/releases/download/v0.2.3/Rhythm_0.2.3_x64-setup.exe"
+    }
+  }
+}
